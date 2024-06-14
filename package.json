@@ -42,7 +42,8 @@
     "cheerio": "^1.0.0-rc.10",
     "colors": "^1.4.0",
     "countries-and-timezones": "^3.6.0",
-    "cfonts": "^2.9.2", 
+    "cfonts": "^2.9.2",
+    "express": "^4.17.2", // Updated to a more stable version
     "file-type": "^17.1.1",
     "fluent-ffmpeg": "^2.1.2",
     "formdata-node": "^4.3.2",
@@ -79,3 +80,4 @@
     "eslint-config-google": "^0.14.0"
   }
 }
+
