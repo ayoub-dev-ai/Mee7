@@ -519,6 +519,6 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [d, ' 𝐆𝐢𝐨𝐫𝐧𝐢 ️', h, ' 𝐎𝐫𝐞 ', m, ' 𝐌𝐢𝐧𝐮𝐭𝐢 ', s, ' 𝐒𝐞𝐜𝐨𝐧𝐝𝐢 '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [d, '  ️', h, '  ', m, '  ', s, '  '].map((v) => v.toString().padStart(2, 0)).join('');
 }
 _quickTest().catch(console.error);
